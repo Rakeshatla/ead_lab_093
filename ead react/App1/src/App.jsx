@@ -17,13 +17,13 @@ function App() {
       </div>
 
       <div className="main-content">
-        {activeComponent === 'home' && (
+        {/* {activeComponent === 'home' && (
           <div className="buttons">
             <button onClick={() => setActiveComponent('calculations')}>Calculations</button>
             <button onClick={() => setActiveComponent('operations')}>Operations</button>
             <button onClick={() => setActiveComponent('greet')}>Greet</button>
           </div>
-        )}
+        )} */}
 
         {activeComponent === 'calculations' && (
           <div>
